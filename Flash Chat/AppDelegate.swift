@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //TODO: Initialise and Configure your Firebase here:
         FirebaseApp.configure()
         
-        let myDatabae = Database.database().reference()
-        myDatabae.setValue("working on windows")
+        //let myDatabae = Database.database().reference()
+        //myDatabae.setValue("working on windows")
         
         
         return true
